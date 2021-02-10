@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "homework3")
+set(homework3_MAINTAINER "abc <abc@todo.todo>")
+set(homework3_DEPRECATED "")
+set(homework3_VERSION "0.0.0")
+set(homework3_BUILD_DEPENDS "roscpp")
+set(homework3_RUN_DEPENDS "roscpp")
+set(homework3_BUILDTOOL_DEPENDS "catkin")

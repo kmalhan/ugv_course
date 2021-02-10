@@ -1,0 +1,8 @@
+prefix=/home/student/ros/src/ugv_course/homework4/devel
+
+Name: homework4
+Description: Description of homework4
+Version: 0.0.0
+Cflags: -I/home/student/ros/src/ugv_course/homework4/devel/include
+Libs: -L/home/student/ros/src/ugv_course/homework4/devel/lib 
+Requires: 

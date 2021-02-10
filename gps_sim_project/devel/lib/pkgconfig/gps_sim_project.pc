@@ -1,0 +1,8 @@
+prefix=/home/student/ros/src/ugv_course/gps_sim_project/devel
+
+Name: gps_sim_project
+Description: Description of gps_sim_project
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/student/ros/src/ugv_course/gps_sim_project/devel/lib 
+Requires: 

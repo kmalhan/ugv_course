@@ -1,0 +1,8 @@
+prefix=/home/student/ros/src/ugv_course/homework2/devel
+
+Name: homework2
+Description: Description of homework2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/student/ros/src/ugv_course/homework2/devel/lib 
+Requires: 

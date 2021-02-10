@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+
+<launch>
+
+<node pkg="homework2" type="pubsub_node" name="pubsub_node" />
+
+<node pkg="homework2" type="service_node" name="service_node" /> 
+
+<node pkg="homework2" type="test_homework2" name="test_homework2" output="screen" />
+
+</launch>

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gps_sim_project")
+set(gps_sim_project_MAINTAINER "abc <abc@todo.todo>")
+set(gps_sim_project_DEPRECATED "")
+set(gps_sim_project_VERSION "0.0.0")
+set(gps_sim_project_BUILD_DEPENDS "roscpp" "ugv_course_libs" "tf")
+set(gps_sim_project_RUN_DEPENDS "roscpp" "ugv_course_libs" "tf")
+set(gps_sim_project_BUILDTOOL_DEPENDS "catkin")

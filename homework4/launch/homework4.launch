@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node pkg="homework4" type="test_homework4" name="test_homework4" output="screen" />
+
+  <!-- Put your node here! -->
+  <node pkg="homework4" type="homework4" name="homework4" output="screen" />
+
+</launch>

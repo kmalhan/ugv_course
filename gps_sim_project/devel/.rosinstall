@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/student/ros/src/ugv_course/gps_sim_project/devel/setup.sh

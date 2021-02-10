@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: gps_sim_project
+Description: Description of gps_sim_project
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

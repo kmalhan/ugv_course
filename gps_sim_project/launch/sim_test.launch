@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<launch>
+  <!-- Leave this here -->
+  <include file="$(find ugv_course_launch)/launch/audibot_sim_project.launch" />
+  <node pkg="gps_sim_project" type="test_gps_sim_project" name="test" output="screen" />
+  <node pkg="rviz" type="rviz" name="sim_project_rviz" respawn="true" args="-d $(find gps_sim_project)/rviz/rviz_config.rviz" />
+
+  <!-- Launch your part of the system here! -->
+  <node pkg="gps_sim_project" type="waypoint_marker" name="waypoint_marker" output="screen" />
+  <node pkg="gps_sim_project" type="vis_path" name="vis_path" output="screen" />
+  <node pkg="gps_sim_project" type="control" name="control" output="screen" />
+  <param name="control/LatAccLimit" value="10.0" />
+  
+    <!-- Odom Node -->
+  <node pkg="bicycle_state_space" type="bicycle_state_space" name="bicycle_state_space" output="screen" >
+    <remap from="/twist" to="/audibot/cmd_vel" />
+  </node>
+  
+  <!-- Static Transfrom -->
+  <node pkg="tf" type="static_transform_publisher" name="world_to_map" args="0 0 0 0 0 0 /world /map 30" />
+  
+</launch>
